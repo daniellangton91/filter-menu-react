@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import AllCollapseExample from "./components/AllCollapseExample";
 import ResponsiveExample from "./components/offcanvas";
+import CreateButton from "./components/button";
 function App() {
   
   return (
@@ -16,6 +17,7 @@ function App() {
       <div>
         <ResponsiveExample />
       </div>
+      
     </div>
   )
 }
